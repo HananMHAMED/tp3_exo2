@@ -3,10 +3,6 @@ import random
 import tkinter as tk
 from PIL import Image, ImageTk
 
-def example():
-    data_in = entry.get()
-    label.config(text=data_in)
-
 def faire_masker():
     mot = ""
     for i, bit in enumerate(mask):
